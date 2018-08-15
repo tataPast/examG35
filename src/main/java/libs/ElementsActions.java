@@ -23,38 +23,34 @@ public class ElementsActions {
         Assert.fail("Cannot work with element" + e);
     }
 
-    public void enterTextToElement(WebElement webElement, String text) {
+    public void enterTextToElement(WebElement webElement, String text, String elementsName) {
         try {
             webElement.clear();
             webElement.sendKeys(text);
-            logger.info(text + " was inputed into element");
+            logger.info(text + " was inputed into " + elementsName);
         } catch (Exception e) {
             printErrorAndStopTest(e);
         }
     }
 
-    public boolean isElementDisplayed(WebElement webElement) {
+    public boolean isElementDisplayed(WebElement webElement, String elementsName) {
         try {
             boolean state = webElement.isDisplayed();
-            logger.info("element is displayed");
+            logger.info( elementsName + " is displayed");
             return state;
         } catch (Exception e) {
-            logger.info("element isn't displayed");
+            logger.info(elementsName + " isn't displayed");
             return false;
         }
     }
 
-    public void clickOnElement(WebElement webElement) {
+    public void clickOnElement(WebElement webElement, String elementsName) {
         try {
             webDriverWait20.until(ExpectedConditions.elementToBeClickable(webElement));
             webElement.click();
-            logger.info("element was clicked");
+            logger.info(elementsName + " was clicked");
         } catch (Exception e) {
             printErrorAndStopTest(e);
         }
-
-
     }
-
-
 }

@@ -185,3 +185,56 @@
 2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
 2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
 2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:53:59   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:54:02   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:54:06   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:54:12   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:12   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:12  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:54:24   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:54:27   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:54:29   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:54:44   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:59   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:59  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:59:07   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:59:09   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:59:11   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:59:11   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into login input field
+2018-15-08 15:59:11   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into password input field
+2018-15-08 15:59:11   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 16:03:49   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 16:03:51   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 16:03:53   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 16:03:53   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into login input field
+2018-15-08 16:03:54   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into password input field
+2018-15-08 16:03:54   INFO [libs.ElementsActions] : Submit button is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User ID item is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User ID item is displayed
+2018-15-08 16:33:58   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 16:34:00   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 16:34:02   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 16:34:02   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into login input field
+2018-15-08 16:34:03   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into password input field
+2018-15-08 16:34:03   INFO [libs.ElementsActions] : Submit button is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : submit Login Button was clicked
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User ID item is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User ID item is displayed

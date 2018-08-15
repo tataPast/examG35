@@ -31,19 +31,21 @@ public class LoginPage extends ParentPage {
     }
 
     public void enterLogin(String login) {
-        elementsActions.enterTextToElement(userNameInput, login);
+        elementsActions.enterTextToElement
+                (userNameInput, login, "login input field");
     }
 
     public void enterPassword(String password) {
-        elementsActions.enterTextToElement(userPasswordInput, password);
+        elementsActions.enterTextToElement
+                (userPasswordInput, password, "password input field");
     }
 
     public boolean isSubmitLoginButtonDisplayed() {
-        return elementsActions.isElementDisplayed(submitLoginButton);
+        return elementsActions.isElementDisplayed(submitLoginButton, "Submit button");
     }
 
     public void clickSubmitLoginButton() {
-        elementsActions.clickOnElement(submitLoginButton);
+        elementsActions.clickOnElement(submitLoginButton, "submit Login Button");
     }
 
 }

@@ -16,10 +16,10 @@ public class MainPage extends ParentPage {
     }
 
     public boolean isUsernameDisplayed() {
-        return elementsActions.isElementDisplayed(menuItemUserLogin);
+        return elementsActions.isElementDisplayed(menuItemUserLogin, "User login item");
     }
 
     public boolean isUserIdDisplayed() {
-        return elementsActions.isElementDisplayed(menuItemUserID);
+        return elementsActions.isElementDisplayed(menuItemUserID, "User ID item");
     }
 }
