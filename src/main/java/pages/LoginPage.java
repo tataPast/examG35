@@ -4,13 +4,12 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 
 public class LoginPage extends ParentPage {
 
-    @FindBy(xpath = ".//input[@id='username']")
+    @FindBy(xpath = "//input[@id='username']")
     private WebElement userNameInput;
-    @FindBy(id = "password")
+    @FindBy(xpath = "//*[@id = 'password']")
     private WebElement userPasswordInput;
     @FindBy(xpath = "//*[@id='intro_login']/fieldset/div/div[3]/div[1]/button")
     private WebElement submitLoginButton;

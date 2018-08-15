@@ -9,7 +9,7 @@ public class MainPage extends ParentPage {
 
     @FindBy(how = How.CSS, using = "menuItem__buttonText")
     private WebElement menuItemUserLogin;
-    @FindBy(how = How.CSS, using = "menuItem__buttonSubText")
+    @FindBy(xpath = "//div[@class='cabinetHeader__userMenu']//button/div/div/span[1]")
     private WebElement menuItemUserID;
 
     public MainPage(WebDriver webDriver) {

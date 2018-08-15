@@ -27,7 +27,7 @@ public class ElementsActions {
         try {
             webElement.clear();
             webElement.sendKeys(text);
-            logger.info(text + " was inputed into " + webElement);
+            logger.info(text + " was inputed into element");
         } catch (Exception e) {
             printErrorAndStopTest(e);
         }
@@ -36,10 +36,10 @@ public class ElementsActions {
     public boolean isElementDisplayed(WebElement webElement) {
         try {
             boolean state = webElement.isDisplayed();
-            logger.info(webElement + "is displayed");
+            logger.info("element is displayed");
             return state;
         } catch (Exception e) {
-            logger.info(webElement + "isn't displayed");
+            logger.info("element isn't displayed");
             return false;
         }
     }
@@ -48,7 +48,7 @@ public class ElementsActions {
         try {
             webDriverWait20.until(ExpectedConditions.elementToBeClickable(webElement));
             webElement.click();
-            logger.info(webElement + " was clicked");
+            logger.info("element was clicked");
         } catch (Exception e) {
             printErrorAndStopTest(e);
         }
