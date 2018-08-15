@@ -160,3 +160,28 @@
 2018-15-08 15:43:33   INFO [libs.ElementsActions] : element isn't displayed
 2018-15-08 15:43:48   INFO [libs.ElementsActions] : element isn't displayed
 2018-15-08 15:43:48  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:46:34   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:46:36   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:47:32   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:47:34   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:47:37   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:47:37   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:47:37   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:47:37   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:47:41   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:47:41   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:47:41   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:47:57   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:48:12   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:48:12  ERROR [loginTest.LoginTest] : AC failed: user ID is not displayed
+2018-15-08 15:49:29   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:49:31   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:49:34   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:49:34   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:49:34   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:49:34   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
