@@ -4,13 +4,12 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 
 public class LoginPage extends ParentPage {
 
-    @FindBy(xpath = ".//input[@id='username']")
+    @FindBy(xpath = "//input[@id='username']")
     private WebElement userNameInput;
-    @FindBy(id = "password")
+    @FindBy(xpath = "//*[@id = 'password']")
     private WebElement userPasswordInput;
     @FindBy(xpath = "//*[@id='intro_login']/fieldset/div/div[3]/div[1]/button")
     private WebElement submitLoginButton;
@@ -32,19 +31,21 @@ public class LoginPage extends ParentPage {
     }
 
     public void enterLogin(String login) {
-        elementsActions.enterTextToElement(userNameInput, login);
+        elementsActions.enterTextToElement
+                (userNameInput, login, "login input field");
     }
 
     public void enterPassword(String password) {
-        elementsActions.enterTextToElement(userPasswordInput, password);
+        elementsActions.enterTextToElement
+                (userPasswordInput, password, "password input field");
     }
 
     public boolean isSubmitLoginButtonDisplayed() {
-        return elementsActions.isElementDisplayed(submitLoginButton);
+        return elementsActions.isElementDisplayed(submitLoginButton, "Submit button");
     }
 
     public void clickSubmitLoginButton() {
-        elementsActions.clickOnElement(submitLoginButton);
+        elementsActions.clickOnElement(submitLoginButton, "submit Login Button");
     }
 
 }

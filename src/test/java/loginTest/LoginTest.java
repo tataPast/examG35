@@ -8,7 +8,7 @@ public class LoginTest extends ParentTest {
     @Test
     public void validLogin() {
         loginpage.openPage();
-        loginpage.enterLogin("tatapast58@gmail.com");
+        loginpage.enterLogin("tatyana.pasternak@gmail.com");
         loginpage.enterPassword("NfnmzyF58");
         loginpage.isSubmitLoginButtonDisplayed();
         loginpage.clickSubmitLoginButton();

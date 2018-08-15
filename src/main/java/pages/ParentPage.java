@@ -14,6 +14,7 @@ public class ParentPage {
     final String baseUrl = "https://cp.unisender.com";
 
     public ParentPage(WebDriver webDriver, String expectedUrl) {
+        elementsActions = new ElementsActions(webDriver);
         this.webDriver = webDriver;
         this.expectedUrl = baseUrl + expectedUrl;
         PageFactory.initElements(webDriver, this);
@@ -31,6 +32,4 @@ public class ParentPage {
             Assert.fail("Url is not expected");
         }
     }
-
-
 }

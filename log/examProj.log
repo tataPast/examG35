@@ -1,0 +1,240 @@
+2018-15-08 13:41:42   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:41:44   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:41:46   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:44:46   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:44:48   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:44:50   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:45:16   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:45:18   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:45:20   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:47:11   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:47:13   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:47:15   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:48:14   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:48:17   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:48:19   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:48:34   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:48:36   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:48:38   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:52:17   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:52:19   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:52:21   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:52:57   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:52:59   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:53:01   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 13:59:43   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 13:59:45   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 13:59:47   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:00:20   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:00:22   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:00:24   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:01:27   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:01:29   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:01:31   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:01:39   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:01:41   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:01:43   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:04:23   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:04:25   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:04:27   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:04:49   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:04:51   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:04:53  ERROR [pages.LoginPage] : Url is not expected
+2018-15-08 14:04:56   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:04:58   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:05:01   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:05:59   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:06:02   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:06:03   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:07:34   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:07:36   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:07:38   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:11:42   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:11:44   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:11:46   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:14:10   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:14:12   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:14:14   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:21:18   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:21:19   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:21:22   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:31:47   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:31:49   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:31:52   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:32:32   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:32:34   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:32:36   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:34:06   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:34:08   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:34:10   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:34:40   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:34:42   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:34:44   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:35:36   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:35:38   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:35:40   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:41:16   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:41:18   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:41:20   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:41:20   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:41:24   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 14:41:39   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:41:54   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:41:54  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 14:53:01   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:53:03   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:53:05   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:53:06   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:53:10   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 14:53:10   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:53:10   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:53:26   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:53:41   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:53:41  ERROR [loginTest.LoginTest] : AC failed: user ID is not displayed
+2018-15-08 14:53:51   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:53:54   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:53:56   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:53:57   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:54:02   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 14:54:02   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:54:02   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:54:17   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:54:32   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:54:32  ERROR [loginTest.LoginTest] : AC failed: user ID is not displayed
+2018-15-08 14:59:19   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 14:59:21   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 14:59:24   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 14:59:24   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 14:59:28   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 14:59:43   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:59:58   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 14:59:58  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:02:26   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:02:29   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:02:31   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:02:32   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:02:36   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:02:51   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:03:06   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:03:06  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:06:29   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:06:32   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:06:34   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:06:34   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:06:39   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:06:39   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:06:39   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:14:27   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:14:30   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:14:32   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:14:32   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:14:38   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:14:53   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:15:08   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:15:08  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:25:37   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:25:39   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:25:41   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:25:41   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:25:46   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:26:01   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:26:16   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:26:16  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:35:20   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:35:23   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:35:25   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:35:25   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:35:25   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:35:25   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:35:30   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:35:45   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:36:00   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:36:00  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:43:09   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:43:11   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:43:13   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:43:13   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:43:13   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:43:13   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:43:18   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:43:33   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:43:48   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:43:48  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:46:34   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:46:36   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:47:32   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:47:34   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:47:37   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:47:37   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:47:37   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:47:37   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:47:41   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:47:41   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:47:41   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:47:57   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:48:12   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:48:12  ERROR [loginTest.LoginTest] : AC failed: user ID is not displayed
+2018-15-08 15:49:29   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:49:31   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:49:34   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:49:34   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:49:34   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:49:34   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:49:38   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:53:59   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:54:02   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:54:06   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:54:06   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:54:12   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:12   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:12  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:54:24   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:54:27   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:54:29   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into element
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into element
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:54:29   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:54:44   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:59   INFO [libs.ElementsActions] : element isn't displayed
+2018-15-08 15:54:59  ERROR [loginTest.LoginTest] : AC failed: user name is not displayed
+2018-15-08 15:59:07   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 15:59:09   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 15:59:11   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 15:59:11   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into login input field
+2018-15-08 15:59:11   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into password input field
+2018-15-08 15:59:11   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 15:59:16   INFO [libs.ElementsActions] : element is displayed
+2018-15-08 16:03:49   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 16:03:51   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 16:03:53   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 16:03:53   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into login input field
+2018-15-08 16:03:54   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into password input field
+2018-15-08 16:03:54   INFO [libs.ElementsActions] : Submit button is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : element was clicked
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User ID item is displayed
+2018-15-08 16:03:58   INFO [libs.ElementsActions] : User ID item is displayed
+2018-15-08 16:33:58   INFO [loginTest.LoginTest] : Chrome will be start
+2018-15-08 16:34:00   INFO [loginTest.LoginTest] : Chrome is started
+2018-15-08 16:34:02   INFO [pages.LoginPage] : Login page was opened
+2018-15-08 16:34:02   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into login input field
+2018-15-08 16:34:03   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into password input field
+2018-15-08 16:34:03   INFO [libs.ElementsActions] : Submit button is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : submit Login Button was clicked
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User login item is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User ID item is displayed
+2018-15-08 16:34:07   INFO [libs.ElementsActions] : User ID item is displayed

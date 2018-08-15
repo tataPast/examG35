@@ -3,13 +3,12 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
 
 public class MainPage extends ParentPage {
 
-    @FindBy(how = How.CSS, using = "menuItem__buttonText")
+    @FindBy(xpath = "//div[@class='cabinetHeader__userMenu']//button/div/div/span[1]")
     private WebElement menuItemUserLogin;
-    @FindBy(how = How.CSS, using = "menuItem__buttonSubText")
+    @FindBy(xpath = "//div[@class='menuItem__buttonSubText']")
     private WebElement menuItemUserID;
 
     public MainPage(WebDriver webDriver) {
@@ -17,10 +16,10 @@ public class MainPage extends ParentPage {
     }
 
     public boolean isUsernameDisplayed() {
-        return elementsActions.isElementDisplayed(menuItemUserLogin);
+        return elementsActions.isElementDisplayed(menuItemUserLogin, "User login item");
     }
 
     public boolean isUserIdDisplayed() {
-        return elementsActions.isElementDisplayed(menuItemUserID);
+        return elementsActions.isElementDisplayed(menuItemUserID, "User ID item");
     }
 }
