@@ -21,8 +21,6 @@ import java.util.concurrent.TimeUnit;
 public class ParentTest {
     protected WebDriver webDriver;
     Logger logger = Logger.getLogger(getClass());
-    protected LoginPage loginpage;
-    protected MainPage mainPage;
     protected SubscriberListPage subscriberListPage;
     String browser = System.getProperty("browser");
 
@@ -32,9 +30,6 @@ public class ParentTest {
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         webDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        loginpage = new LoginPage(webDriver);
-        mainPage = new MainPage(webDriver);
-        subscriberListPage = new SubscriberListPage(webDriver);
     }
 
     private void initDriver(String browserName) {

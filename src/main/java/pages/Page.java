@@ -6,14 +6,14 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class ParentPage {
+public class Page {
     Logger logger = Logger.getLogger(getClass());
     WebDriver webDriver;
     String expectedUrl;
     ElementsActions elementsActions;
     final String baseUrl = "https://cp.unisender.com";
 
-    public ParentPage(WebDriver webDriver, String expectedUrl) {
+    public Page(WebDriver webDriver, String expectedUrl) {
         elementsActions = new ElementsActions(webDriver);
         this.webDriver = webDriver;
         this.expectedUrl = baseUrl + expectedUrl;

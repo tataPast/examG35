@@ -4,10 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class MainPage extends ParentPage {
+public class MainPage extends Page {
 
     @FindBy(xpath = "//div[@class='cabinetHeader__userMenu']//button/div/div/span[1]")
     private WebElement menuItemUserLogin;
+
     @FindBy(xpath = "//div[@class='menuItem__buttonSubText']")
     private WebElement menuItemUserID;
 

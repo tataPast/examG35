@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage extends ParentPage {
+public class LoginPage extends Page {
 
     @FindBy(xpath = "//input[@id='username']")
     private WebElement userNameInput;
@@ -19,7 +19,7 @@ public class LoginPage extends ParentPage {
         super(webDriver, "/ru/v5/signin");
     }
 
-    public void openPage() {
+    public LoginPage openPage() {
         try {
             webDriver.get(baseUrl + "/ru/v5/signin");
             checkCurrentUrl();
@@ -28,24 +28,27 @@ public class LoginPage extends ParentPage {
             logger.error("Can't open Login page");
             Assert.fail("Can't open Login page");
         }
+        return new LoginPage(webDriver);
     }
 
-    public void enterLogin(String login) {
+    public LoginPage enterLogin(String login) {
         elementsActions.enterTextToElement
                 (userNameInput, login, "login input field");
+        return this;
     }
 
-    public void enterPassword(String password) {
+    public LoginPage enterPassword(String password) {
         elementsActions.enterTextToElement
                 (userPasswordInput, password, "password input field");
+        return this;
     }
 
     public boolean isSubmitLoginButtonDisplayed() {
         return elementsActions.isElementDisplayed(submitLoginButton, "Submit button");
     }
 
-    public void clickSubmitLoginButton() {
+    public MainPage clickSubmitLoginButton() {
         elementsActions.clickOnElement(submitLoginButton, "submit Login Button");
+        return new MainPage(webDriver);
     }
-
 }
