@@ -8,15 +8,18 @@ public class LoginTest extends ParentTest {
     @Test
     public void validLogin() {
         loginpage.openPage();
-        loginpage.enterLogin("tatyana.pasternak@gmail.com");
-        loginpage.enterPassword("NfnmzyF58");
+        loginpage.enterLogin(configProperties.login());
+        loginpage.enterPassword(configProperties.password());
         loginpage.isSubmitLoginButtonDisplayed();
         loginpage.clickSubmitLoginButton();
-        mainPage.isUsernameDisplayed();
-        checkAC("user name is not displayed", mainPage.isUsernameDisplayed(), true);
-        mainPage.isUserIdDisplayed();
         checkAC("user ID is not displayed", mainPage.isUserIdDisplayed(), true);
     }
 
-
+    @Test
+    public void loginWithEmptyInputs(){
+        loginpage.openPage();
+        loginpage.isSubmitLoginButtonDisplayed();
+        loginpage.clickSubmitLoginButton();
+        checkAC("Error massage is not displayed", loginpage.isErrorMsgVisible(), true);
+    }
 }

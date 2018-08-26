@@ -13,7 +13,8 @@ public class LoginPage extends ParentPage {
     private WebElement userPasswordInput;
     @FindBy(xpath = "//*[@id='intro_login']/fieldset/div/div[3]/div[1]/button")
     private WebElement submitLoginButton;
-
+    @FindBy(xpath = "//*[@class='login__boxInputErrorMsg']")
+    private WebElement loginInputErrorMsg;
 
     public LoginPage(WebDriver webDriver) {
         super(webDriver, "/ru/v5/signin");
@@ -30,22 +31,32 @@ public class LoginPage extends ParentPage {
         }
     }
 
+    public void login(){
+        openPage();
+        enterLogin(login);
+        enterPassword(pass);
+        clickSubmitLoginButton();
+    }
+
     public void enterLogin(String login) {
         elementsActions.enterTextToElement
-                (userNameInput, login, "login input field");
+                (userNameInput, login, "userNameInput");
     }
 
     public void enterPassword(String password) {
         elementsActions.enterTextToElement
-                (userPasswordInput, password, "password input field");
+                (userPasswordInput, password, "userPasswordInput");
     }
 
     public boolean isSubmitLoginButtonDisplayed() {
-        return elementsActions.isElementDisplayed(submitLoginButton, "Submit button");
+        return elementsActions.isElementDisplayed(submitLoginButton, "submitLoginButton");
     }
 
     public void clickSubmitLoginButton() {
-        elementsActions.clickOnElement(submitLoginButton, "submit Login Button");
+        elementsActions.clickOnElement(submitLoginButton, "submitLoginButton");
     }
 
+    public boolean isErrorMsgVisible(){
+        return elementsActions.isElementDisplayed(loginInputErrorMsg, "loginInputErrorMsg");
+    }
 }

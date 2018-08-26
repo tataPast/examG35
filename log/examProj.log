@@ -238,3 +238,79 @@
 2018-15-08 16:34:07   INFO [libs.ElementsActions] : User login item is displayed
 2018-15-08 16:34:07   INFO [libs.ElementsActions] : User ID item is displayed
 2018-15-08 16:34:07   INFO [libs.ElementsActions] : User ID item is displayed
+2018-26-08 14:42:18   INFO [loginTest.LoginTest] : Chrome will be start
+2018-26-08 14:42:20   INFO [loginTest.LoginTest] : Chrome is started
+2018-26-08 14:42:23   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:42:23   INFO [libs.ElementsActions] : submitLoginButton is displayed
+2018-26-08 14:42:24   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:42:24   INFO [libs.ElementsActions] : loginInputErrorMsg is displayed
+2018-26-08 14:42:25   INFO [loginTest.LoginTest] : Chrome will be start
+2018-26-08 14:42:25   INFO [loginTest.LoginTest] : Chrome is started
+2018-26-08 14:42:28   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:42:28   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into userNameInput
+2018-26-08 14:42:28   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into userPasswordInput
+2018-26-08 14:42:28   INFO [libs.ElementsActions] : submitLoginButton is displayed
+2018-26-08 14:42:33   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:42:33   INFO [libs.ElementsActions] : User ID item is displayed
+2018-26-08 14:42:33   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome will be start
+2018-26-08 14:42:34   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome is started
+2018-26-08 14:42:36   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:42:36   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com; was inputed into userNameInput
+2018-26-08 14:42:37   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into userPasswordInput
+2018-26-08 14:42:38   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:43:04  ERROR [libs.ElementsActions] : Cannot work with element org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-test='menu-contact']' (tried for 20 second(s) with 500 milliseconds interval)
+2018-26-08 14:43:04   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome will be start
+2018-26-08 14:43:05   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome is started
+2018-26-08 14:43:08   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:43:08   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com; was inputed into userNameInput
+2018-26-08 14:43:08   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into userPasswordInput
+2018-26-08 14:43:09   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:43:36  ERROR [libs.ElementsActions] : Cannot work with element org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@data-test='menu-contact']' (tried for 20 second(s) with 500 milliseconds interval)
+2018-26-08 14:44:22   INFO [loginTest.LoginTest] : Chrome will be start
+2018-26-08 14:44:24   INFO [loginTest.LoginTest] : Chrome is started
+2018-26-08 14:44:28   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:44:28   INFO [libs.ElementsActions] : submitLoginButton is displayed
+2018-26-08 14:44:29   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:44:29   INFO [libs.ElementsActions] : loginInputErrorMsg is displayed
+2018-26-08 14:44:29   INFO [loginTest.LoginTest] : Chrome will be start
+2018-26-08 14:44:30   INFO [loginTest.LoginTest] : Chrome is started
+2018-26-08 14:44:32   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:44:33   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into userNameInput
+2018-26-08 14:44:33   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into userPasswordInput
+2018-26-08 14:44:33   INFO [libs.ElementsActions] : submitLoginButton is displayed
+2018-26-08 14:44:37   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:44:37   INFO [libs.ElementsActions] : User ID item is displayed
+2018-26-08 14:44:38   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome will be start
+2018-26-08 14:44:38   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome is started
+2018-26-08 14:44:41   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:44:41   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into userNameInput
+2018-26-08 14:44:41   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into userPasswordInput
+2018-26-08 14:44:46   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:44:46   INFO [libs.ElementsActions] : contactsDropdownButton was clicked
+2018-26-08 14:44:47   INFO [libs.ElementsActions] : goToContactListButton was clicked
+2018-26-08 14:44:48   INFO [libs.ElementsActions] : addFieldButton was clicked
+2018-26-08 14:44:49   INFO [libs.ElementsActions] : addFieldButton was clicked
+2018-26-08 14:44:49   INFO [libs.ElementsActions] : qwerty was inputed into subscriberFieldName
+2018-26-08 14:44:49   INFO [libs.ElementsActions] : zxcv was inputed into subscriberFieldTag
+2018-26-08 14:44:50   INFO [libs.ElementsActions] : saveFieldButton was clicked
+2018-26-08 14:44:51   INFO [libs.ElementsActions] : Cursor was moved to tagNameInGrid
+2018-26-08 14:44:51   INFO [libs.ElementsActions] : deleteNewFieldButton was clicked
+2018-26-08 14:44:51   INFO [libs.ElementsActions] : confirmDeletionButton was clicked
+2018-26-08 14:44:51   INFO [libs.ElementsActions] : newAddedField is displayed
+2018-26-08 14:44:51   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome will be start
+2018-26-08 14:44:52   INFO [subscriberFieldTest.SubscriberFieldTest] : Chrome is started
+2018-26-08 14:44:55   INFO [pages.LoginPage] : Login page was opened
+2018-26-08 14:44:55   INFO [libs.ElementsActions] : tatyana.pasternak@gmail.com was inputed into userNameInput
+2018-26-08 14:44:55   INFO [libs.ElementsActions] : NfnmzyF58 was inputed into userPasswordInput
+2018-26-08 14:45:00   INFO [libs.ElementsActions] : submitLoginButton was clicked
+2018-26-08 14:45:00   INFO [libs.ElementsActions] : contactsDropdownButton was clicked
+2018-26-08 14:45:01   INFO [libs.ElementsActions] : goToContactListButton was clicked
+2018-26-08 14:45:03   INFO [libs.ElementsActions] : addFieldButton was clicked
+2018-26-08 14:45:03   INFO [libs.ElementsActions] : addFieldButton was clicked
+2018-26-08 14:45:04   INFO [libs.ElementsActions] : qwerty was inputed into subscriberFieldName
+2018-26-08 14:45:04   INFO [libs.ElementsActions] : zxcv was inputed into subscriberFieldTag
+2018-26-08 14:45:04   INFO [libs.ElementsActions] : saveFieldButton was clicked
+2018-26-08 14:45:05   INFO [libs.ElementsActions] : newAddedField is displayed
+2018-26-08 14:45:06   INFO [libs.ElementsActions] : Cursor was moved to tagNameInGrid
+2018-26-08 14:45:06   INFO [libs.ElementsActions] : deleteNewFieldButton was clicked
+2018-26-08 14:45:06   INFO [libs.ElementsActions] : confirmDeletionButton was clicked
