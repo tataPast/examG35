@@ -1,5 +1,7 @@
 package parentTest;
 
+import libs.ConfigProperties;
+import org.aeonbits.owner.ConfigFactory;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Assert;
@@ -11,9 +13,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import pages.LoginPage;
-import pages.MainPage;
-import pages.SubscriberListPage;
+import pages.*;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -21,15 +21,24 @@ import java.util.concurrent.TimeUnit;
 public class ParentTest {
     protected WebDriver webDriver;
     Logger logger = Logger.getLogger(getClass());
+    protected ParentPage parentPage;
+    protected LoginPage loginpage;
+    protected MainPage mainPage;
     protected SubscriberListPage subscriberListPage;
+    protected SubscriberFieldPage subscriberFieldPage;
     String browser = System.getProperty("browser");
+    protected static ConfigProperties configProperties = ConfigFactory.create(ConfigProperties.class);
 
     @Before
     public void setUp() {
         initDriver(browser);
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        webDriver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        parentPage = new ParentPage(webDriver);
+        loginpage = new LoginPage(webDriver);
+        mainPage = new MainPage(webDriver);
+        subscriberListPage = new SubscriberListPage(webDriver);
+        subscriberFieldPage = new SubscriberFieldPage(webDriver);
     }
 
     private void initDriver(String browserName) {
@@ -39,7 +48,7 @@ public class ParentTest {
             System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
             webDriver = new ChromeDriver();
             logger.info("Chrome is started");
-        } else if ("firefox".equals(browserName)) {
+        } else if ("firefox".equals(browserName)){
             logger.info("Firefox will be start");
             File fileFF = new File("./src/drivers/geckodriver");
             System.setProperty("webdriver.gecko.driver", fileFF.getAbsolutePath());
@@ -48,7 +57,7 @@ public class ParentTest {
             profile.addPreference("browser.startup.homepage_override.mstone", "ignore"); // Suppress the "What's new" page
             webDriver = new FirefoxDriver();
             logger.info("Firefox is started");
-        } else if ("ie".equals(browser)) {
+        } else if ("ie".equals(browser)){
             logger.info("IE will be started");
             File file1 = new File("./src/drivers/IEDriverServer.exe");
             System.setProperty("webdriver.ie.driver", file1.getAbsolutePath());
@@ -74,6 +83,5 @@ public class ParentTest {
             logger.error("AC failed: " + massage);
         }
         Assert.assertEquals(massage, expexted, actual);
-
     }
 }

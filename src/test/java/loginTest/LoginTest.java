@@ -1,29 +1,25 @@
 package loginTest;
 
-import org.junit.Before;
 import org.junit.Test;
-import pages.LoginPage;
-import pages.MainPage;
 import parentTest.ParentTest;
 
 public class LoginTest extends ParentTest {
-    private LoginPage loginpage;
-    private MainPage mainPage;
-
-    @Before
-    public void setUp() {
-        loginpage = new LoginPage(webDriver);
-        mainPage = new MainPage(webDriver);
-    }
 
     @Test
     public void validLogin() {
-        mainPage = loginpage.openPage()
-                .enterLogin("tatyana.pasternak@gmail.com")
-                .enterPassword("NfnmzyF58")
-                .clickSubmitLoginButton();
-
-        checkAC("user name is not displayed", mainPage.isUsernameDisplayed(), true);
+        loginpage.openPage();
+        loginpage.enterLogin(configProperties.login());
+        loginpage.enterPassword(configProperties.password());
+        loginpage.isSubmitLoginButtonDisplayed();
+        loginpage.clickSubmitLoginButton();
         checkAC("user ID is not displayed", mainPage.isUserIdDisplayed(), true);
+    }
+
+    @Test
+    public void loginWithEmptyInputs(){
+        loginpage.openPage();
+        loginpage.isSubmitLoginButtonDisplayed();
+        loginpage.clickSubmitLoginButton();
+        checkAC("Error massage is not displayed", loginpage.isErrorMsgVisible(), true);
     }
 }
