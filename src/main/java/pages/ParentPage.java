@@ -26,7 +26,6 @@ public class ParentPage {
         baseUrl = configProperties.base_url();
         pass = configProperties.password();
         login = configProperties.login();
-
         this.expectedUrl = baseUrl + expectedUrl;
         PageFactory.initElements(webDriver, this);
         elementsActions = new ElementsActions(webDriver);

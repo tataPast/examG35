@@ -17,14 +17,37 @@ public class SubscriberListPage extends ParentPage {
     private WebElement saveNewListButoon;
     @FindBy(xpath = "//a[contains(text(),'Дополнительные поля')]")
     private WebElement addFieldButton;
-
-    public void addNewList(String listName) {
-        elementsActions.clickOnElement(createNewListButton, "createNewListButton");
-        elementsActions.enterTextToElement(listNameInput, listName, "listNameInput");
-        elementsActions.clickOnElement(saveNewListButoon, "saveNewListButoon");
-    }
+    @FindBy(xpath = "//a[contains(text(),'qwerty')]")
+    private WebElement newListInGrig;
+    @FindBy(xpath = "//*[@id='contactListsContainer']/tr[1]/td[1]/span[1]")
+    private WebElement newListInGrigID;
 
     public void goToSubscriberFieldPage() {
         elementsActions.clickOnElement(addFieldButton, "addFieldButton");
+    }
+
+    public void openCreateNewListPopUp(){
+        elementsActions.clickOnElement(createNewListButton, "createNewListButton");
+    }
+
+    public void inputListName(String listname){
+        elementsActions.enterTextToElement(listNameInput, listname, "listNameInput");
+    }
+
+    public void submitNewListCreation() {
+        elementsActions.clickOnElement(saveNewListButoon, "saveNewListButoon");
+    }
+
+    public boolean isNewListInGrid(){
+        elementsActions.refreshPage();
+        return elementsActions.isElementDisplayed(newListInGrig, "newListInGrid");
+    }
+
+    public void goToNewListPage(){
+        elementsActions.clickOnElement(newListInGrig, "newListInGrig");
+    }
+
+    public String getId(){
+        return newListInGrigID.getText();
     }
 }
