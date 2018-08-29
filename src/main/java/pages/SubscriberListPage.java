@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SubscriberListPage extends ParentPage {
+public class SubscriberListPage extends Pages {
     public SubscriberListPage(WebDriver webDriver) {
         super(webDriver, "/ru/subscriber/list");
     }
@@ -22,20 +22,24 @@ public class SubscriberListPage extends ParentPage {
     @FindBy(xpath = "//*[@id='contactListsContainer']/tr[1]/td[1]/span[1]")
     private WebElement newListInGrigID;
 
-    public void goToSubscriberFieldPage() {
+    public SubscriberListPage goToSubscriberFieldPage() {
         elementsActions.clickOnElement(addFieldButton, "addFieldButton");
+        return this;
     }
 
-    public void openCreateNewListPopUp(){
+    public SubscriberListPage openCreateNewListPopUp(){
         elementsActions.clickOnElement(createNewListButton, "createNewListButton");
+        return this;
     }
 
-    public void inputListName(String listname){
+    public SubscriberListPage inputListName(String listname){
         elementsActions.enterTextToElement(listNameInput, listname, "listNameInput");
+        return this;
     }
 
-    public void submitNewListCreation() {
+    public SubscriberListPage submitNewListCreation() {
         elementsActions.clickOnElement(saveNewListButoon, "saveNewListButoon");
+        return this;
     }
 
     public boolean isNewListInGrid(){
@@ -43,11 +47,13 @@ public class SubscriberListPage extends ParentPage {
         return elementsActions.isElementDisplayed(newListInGrig, "newListInGrid");
     }
 
-    public void goToNewListPage(){
+    public NewListPage goToNewListPage(){
+        elementsActions.refreshPage();
         elementsActions.clickOnElement(newListInGrig, "newListInGrig");
+    return new NewListPage(webDriver);
     }
-
-    public String getId(){
-        return newListInGrigID.getText();
-    }
+//
+//    public String getId(){
+//        return newListInGrigID.getText();
+//    }
 }

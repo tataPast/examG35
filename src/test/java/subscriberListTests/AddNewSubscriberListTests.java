@@ -3,47 +3,35 @@ package subscriberListTests;
 import org.junit.Before;
 import org.junit.Test;
 import pages.NewListPage;
-import parentTest.ParentTest;
+import parentTest.Tests;
 
-public class AddNewSubscriberListTests extends ParentTest {
+public class AddNewSubscriberListTests extends Tests {
     String listName = "qwerty";
 
     @Before
-    public void goToPage(){
+    public void goToPage() {
         loginpage.login();
-        parentPage.openContactDropDown();
-        parentPage.goToSubscriberListPageButton();
+        pages.openContactDropDown();
+        pages.goToSubscriberListPageButton();
     }
 
     @Test
-    public void addNewSubscriberList(){
-        subscriberListPage.openCreateNewListPopUp();
-        subscriberListPage.inputListName(listName);
-        subscriberListPage.submitNewListCreation();
-
+    public void addNewSubscriberList() {
+        subscriberListPage.openCreateNewListPopUp()
+                .inputListName(listName)
+                .submitNewListCreation();
         checkAC("Can't find new added list in grid", subscriberListPage.isNewListInGrid(), true);
-        String id = subscriberListPage.getId();
-        id = id.replace("ID: ","");
-        NewListPage newListPage = new NewListPage(webDriver, "/ru/subscriber/list/2766313/"+id);
+        subscriberListPage.goToNewListPage();
         newListPage.deleteList();
-
-
     }
 
     @Test
-    public void deleteNewAddedList(){
-        subscriberListPage.openCreateNewListPopUp();
-        subscriberListPage.inputListName(listName);
-        subscriberListPage.submitNewListCreation();
-
-        String id = subscriberListPage.getId();
-        id = id.replace("ID: ","");
-        NewListPage newListPage = new NewListPage(webDriver, "/ru/subscriber/list/2766313/"+id);
+    public void deleteNewAddedList() {
+        NewListPage newListPage = subscriberListPage.openCreateNewListPopUp()
+                .inputListName(listName)
+                .submitNewListCreation()
+                .goToNewListPage();
         newListPage.deleteList();
-
         checkAC("Can't find new added list in grid", subscriberListPage.isNewListInGrid(), false);
-
     }
-
-
 }

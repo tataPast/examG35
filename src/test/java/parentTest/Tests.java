@@ -13,15 +13,15 @@ import pages.*;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-public class ParentTest {
+public class Tests {
     protected WebDriver webDriver;
     Logger logger = Logger.getLogger(getClass());
-    protected ParentPage parentPage;
+    protected Pages pages;
     protected LoginPage loginpage;
     protected MainPage mainPage;
     protected SubscriberListPage subscriberListPage;
     protected SubscriberFieldPage subscriberFieldPage;
-//    protected NewListPage newListPage;
+    protected NewListPage newListPage;
     protected static ConfigProperties configProperties = ConfigFactory.create(ConfigProperties.class);
 
     @Before
@@ -31,12 +31,12 @@ public class ParentTest {
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        parentPage = new ParentPage(webDriver);
+        pages = new Pages(webDriver);
         loginpage = new LoginPage(webDriver);
         mainPage = new MainPage(webDriver);
         subscriberListPage = new SubscriberListPage(webDriver);
         subscriberFieldPage = new SubscriberFieldPage(webDriver);
-//        newListPage = new NewListPage(webDriver,"/ru/subscriber/list/2766313/" + id);
+        newListPage = new NewListPage(webDriver);
     }
 
     @After

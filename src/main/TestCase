@@ -47,3 +47,8 @@ er: Отображение счета пополнени в отдельном �
 5.
 - пользователь залогинен
 er:
+
+
+//        String id = subscriberListPage.getId();
+//        id = id.replace("ID: ","");
+//        NewListPage newListPage = new NewListPage(webDriver, "/ru/subscriber/list/2766313/"+id);

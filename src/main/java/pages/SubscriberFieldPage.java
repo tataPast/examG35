@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SubscriberFieldPage extends ParentPage{
+public class SubscriberFieldPage extends Pages {
     public SubscriberFieldPage(WebDriver webDriver) {
         super(webDriver, "/ru/subscriber/field/list");
     }
@@ -26,31 +26,36 @@ public class SubscriberFieldPage extends ParentPage{
     @FindBy(xpath = "//*[normalize-space(text()) and normalize-space(.)='UniSender']")
     private WebElement closeUselessWindowButton;
 
-    public void clickCreateNewFeildButton() {
+    public SubscriberFieldPage clickCreateNewFeildButton() {
         elementsActions.clickOnElement(addFieldButton, "addFieldButton");
+    return this;
     }
 
-    public void inputFieldName(String fieldName) {
+    public SubscriberFieldPage inputFieldName(String fieldName) {
         elementsActions.enterTextToElement(subscriberFieldName, fieldName, "subscriberFieldName");
+    return this;
     }
 
-    public void inputFieldTag(String fieldTag) {
+    public SubscriberFieldPage inputFieldTag(String fieldTag) {
         elementsActions.enterTextToElement(subscriberFieldTag, fieldTag, "subscriberFieldTag");
+    return this;
     }
 
-    public void clickSubmitCreateFieldButton(){
+    public SubscriberFieldPage clickSubmitCreateFieldButton() {
         elementsActions.clickOnElement(saveFieldButton, "saveFieldButton");
+    return this;
     }
 
     public boolean isNewAddedFieldVisible(String tagName) {
         return elementsActions.isElementDisplayed(tagName, "newAddedField");
     }
 
-    public void deleteAddedField() {
+    public SubscriberFieldPage deleteAddedField() {
         elementsActions.refreshPage();
         elementsActions.moveCursorToElement(tagNameInGrid, "tagNameInGrid");
         elementsActions.clickOnElement(deleteNewFieldButton, "deleteNewFieldButton");
         elementsActions.clickOnElement(confirmDeletionButton, "confirmDeletionButton");
+    return this;
     }
 }
 

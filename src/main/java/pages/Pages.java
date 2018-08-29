@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ParentPage {
+public class Pages {
     Logger logger = Logger.getLogger(getClass());
     WebDriver webDriver;
     protected static ConfigProperties configProperties
@@ -21,7 +21,7 @@ public class ParentPage {
     String login;
     ElementsActions elementsActions;
 
-    public ParentPage(WebDriver webDriver, String expectedUrl) {
+    public Pages(WebDriver webDriver, String expectedUrl) {
         this.webDriver = webDriver;
         baseUrl = configProperties.base_url();
         pass = configProperties.password();
@@ -31,7 +31,7 @@ public class ParentPage {
         elementsActions = new ElementsActions(webDriver);
     }
 
-    public ParentPage(WebDriver webDriver) {
+    public Pages(WebDriver webDriver) {
         this.webDriver = webDriver;
         baseUrl = configProperties.base_url();
         this.expectedUrl = baseUrl + expectedUrl;
@@ -57,12 +57,11 @@ public class ParentPage {
     @FindBy(xpath = "//*[@data-test='menu-contact-field-contact-list']")
     private WebElement contactListButton;
 
-
-    public void openContactDropDown(){
+    public void openContactDropDown() {
         elementsActions.clickOnElement(contactsDropdownButton, "contactsDropdownButton");
     }
 
-    public void goToSubscriberListPageButton(){
+    public void goToSubscriberListPageButton() {
         elementsActions.clickOnElement(contactListButton, "goToContactListButton");
     }
 }

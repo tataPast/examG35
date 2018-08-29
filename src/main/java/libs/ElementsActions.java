@@ -41,7 +41,7 @@ public class ElementsActions {
     public boolean isElementDisplayed(WebElement webElement, String elementsName) {
         try {
             boolean state = webElement.isDisplayed();
-            logger.info( elementsName + " is displayed");
+            logger.info(elementsName + " is displayed");
             return state;
         } catch (Exception e) {
             logger.info(elementsName + " isn't displayed");
@@ -52,7 +52,7 @@ public class ElementsActions {
     public boolean isElementDisplayed(String listName, String elementsName) {
         try {
             boolean state = webDriver.findElement(By.xpath("//*[contains(text(),'" + listName + "')]")).isDisplayed();
-            logger.info( elementsName + " is displayed");
+            logger.info(elementsName + " is displayed");
             return state;
         } catch (Exception e) {
             logger.info(elementsName + " isn't displayed");
@@ -80,17 +80,17 @@ public class ElementsActions {
         }
     }
 
-    public void moveCursorToElement(WebElement webElement, String elementsName){
+    public void moveCursorToElement(WebElement webElement, String elementsName) {
         try {
             webDriverWait20.until(ExpectedConditions.elementToBeClickable(webElement));
             actions.moveToElement(webElement).build().perform();
             logger.info("Cursor was moved to " + elementsName);
-        }catch (Exception e){
+        } catch (Exception e) {
             printErrorAndStopTest(e);
         }
     }
 
-    public void refreshPage(){
+    public void refreshPage() {
         webDriver.navigate().refresh();
     }
 }
