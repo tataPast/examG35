@@ -7,9 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 public class ElementsActions {
 
     WebDriver webDriver;
@@ -65,16 +63,6 @@ public class ElementsActions {
             webDriverWait20.until(ExpectedConditions.elementToBeClickable(webElement));
             webElement.click();
             logger.info(elementsName + " was clicked");
-        } catch (Exception e) {
-            printErrorAndStopTest(e);
-        }
-    }
-
-    public void selectValueInDD(WebElement dropDownElement, String value) {
-        try {
-            Select select = new Select(dropDownElement);
-            select.selectByValue(value);
-            logger.info(value + " was selected in DD");
         } catch (Exception e) {
             printErrorAndStopTest(e);
         }
